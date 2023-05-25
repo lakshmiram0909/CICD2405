@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_cicd_demo.feature2405</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>feature2405</name>
+        <script><![CDATA[var feature2405 = Class.create();
+feature2405.prototype = {
+    initialize: function() {},
+    sayhello: function() {
+        return hello;
+    },
+    type: 'feature2405'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-24 15:12:23</sys_created_on>
+        <sys_id>db4cdfbced8ba5107f44e98c2f435f7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>feature2405</sys_name>
+        <sys_package display_value="CICD demo" source="x_snc_cicd_demo">2a7293b4ed8ba5107f44e98c2f435fce</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CICD demo">2a7293b4ed8ba5107f44e98c2f435fce</sys_scope>
+        <sys_update_name>sys_script_include_db4cdfbced8ba5107f44e98c2f435f7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-24 15:12:23</sys_updated_on>
+    </sys_script_include>
+</record_update>
